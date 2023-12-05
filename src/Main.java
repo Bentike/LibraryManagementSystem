@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         ArrayList <Book> storyBooks = new ArrayList<Book>();
-        addBook(storyBooks, "Charles Dickens", "Oliver Twist", 17);
-        addBook(storyBooks, "Bram Stoker", "Dracular", 980);
-        addBook(storyBooks, "Leo Tolstoy", "War and Peace", 99);
-        addBook(storyBooks, "Anna Sewell", "Black Beauty", 305);
+        addBook(storyBooks, "Charles Dickens", "Oliver Twist", 427);
+        addBook(storyBooks, "Bram Stoker", "Dracular", 1500);
+        addBook(storyBooks, "Leo Tolstoy", "War and Peace", 1386);
+        addBook(storyBooks, "Anna Sewell", "Black Beauty", 64);
     }
 
     // This method add a new book to the library, it takes 4 parameters,
