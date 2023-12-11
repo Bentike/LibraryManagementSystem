@@ -8,6 +8,18 @@ public class Main {
         addBook(storyBooks, "Bram Stoker", "Dracular", 1500);
         addBook(storyBooks, "Leo Tolstoy", "War and Peace", 1386);
         addBook(storyBooks, "Anna Sewell", "Black Beauty", 64);
+        getAllBooks(storyBooks);
+    }
+
+    // This method Prints all All the Books available in a Library
+    // I accepts an ArrayList<Book> argument
+    public static void getAllBooks(ArrayList<Book> library){
+        for(Book book : library){
+            System.out.println("***************************");
+            System.out.println("Author: " + book.getAuthor());
+            System.out.println("Title: " + book.getTitle());
+            System.out.println("Number of Pages: " + book.getPages());
+        }
     }
 
     // This method add a new book to the library, it takes 4 parameters,
